@@ -66,8 +66,6 @@ nav > img {
     font-size: 40px;
     padding-bottom: 15px;
     font-weight: 400;
-
-
 }
 
 .texthero > p {
@@ -96,4 +94,61 @@ nav > img {
     position: absolute;
     left: 0%;
     z-index: -10;
+}
+
+/* ----- PRESENTACION ----- */
+
+.presentacion { 
+    display: flex;
+    height: 89vh;
+    background-color: #faf4ee;
+}
+
+.nombre{
+    padding-top: 10% ;
+    padding-left: 12%;
+    width: 40%;
+    background: none;
+    position: absolute;
+    left:40%;
+    z-index: 2;
+    top: 112%;
+}
+
+.presentacion h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 3%;
+    color:white;
+    background: none;
+}
+
+.presentacion p{
+    font-weight: 400;
+    background: none;
+    color: white;
+}
+
+.presentacion img{
+    height: 60vh;
+    margin: 95px 0px 40px 250px;
+    border: 20px solid #b39f91;
+    background: none;
+    position: absolute;
+    z-index: 2;
+    transition: 0.4s;
+} 
+
+.presentacion img:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 5px 21px -6px #B39F91;
+}
+
+.fondopresentacion{
+    background-color: #6c5f57de;
+    width: 100%;
+    height: 40vh;
+    position:absolute;
+    top:125%;
+    z-index: 1;
 }
