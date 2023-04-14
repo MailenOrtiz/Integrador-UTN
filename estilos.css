@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Crimson Text', serif;
+}
+
+/* ----- HERO ----- */
+
+.hero {
+    background-color: #B39F91;
+    height: 100vh;
+    display: flex;
+    color: white;
+
+}
+
+/* barra de navegacion */
+
+nav > img {
+    width: 12%;
+    padding: 15px 0px 0px 38px;
+    position: absolute;
+    z-index: 10;
+}
+
+.secciones {
+    display: flex;
+    position: absolute;
+    right: 35%;
+    top: 3%;
+}
+
+.secciones > a {
+    margin: 35px;
+    padding: 0px 2px 3px 2px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+    transition: 0.3s;
+    border-bottom: 1px solid white;
+    z-index: 100;
+}
+
+.secciones > a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+    transform: scale(1.1);
+}
+
+/* texto del hero */
+
+.texthero {
+    position: absolute;
+    top: 39%;
+    right: 50%;
+    left: 16%;
+    border-left: 3px solid white;
+    padding: 6px 0px 6px 40px;
+    color: white;
+}
+
+.texthero > h1 {
+    font-size: 40px;
+    padding-bottom: 15px;
+    font-weight: 400;
+
+
+}
+
+.texthero > p {
+    font-size: 20px;
+}
+
+/* fondo de hero */
+
+.hero > img {
+    position: absolute;
+    height: 100vh;
+    right: 0%;  
+    z-index: 3;
+    transition: 0.2s;
+}
+
+.fondonegro {
+    position: absolute;
+    opacity: 0.4;
+    height: 100vh;
+    z-index: -1;
+}
+
+.fondonegro2 {
+    opacity: 0.4;
+    position: absolute;
+    left: 0%;
+    z-index: -10;
+}
