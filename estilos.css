@@ -109,7 +109,7 @@ nav > img {
 }
 
 .nombre{
-    padding-top: 10% ;
+    padding-top: 9% ;
     padding-left: 12%;
     width: 40%;
     background: none;
@@ -161,7 +161,7 @@ nav > img {
 
 .servicios{
     height: 70vh;
-    background-image: url(Imagenes/fondocejas.jpg);
+    background-image: url(Imagenes/fondocejas.png);
     background-size: cover;
     background-repeat: none;
     background-position: 0% 0%;
@@ -384,7 +384,8 @@ padding-bottom: 0px;
     /* PRESENTACIÓN */
 
     .fondopresentacion {
-        top: 125%;
+        top: 120%;
+        height: 50vh;
     }
 
     .imgpresentacion > img {
@@ -392,12 +393,14 @@ padding-bottom: 0px;
     }
 
     .nombre {
-        left: 50%;
-        right: 50%;
+        left: 45%;
         width: 40%;
-        padding-top: 12%;
+        padding-top: 9%;
     }
 
+    .presentacion > p {
+        padding-left: 5px;
+    }
     /* SERVICIOS */
 
     /* texto y boton de servicio */
@@ -547,7 +550,7 @@ padding-bottom: 0px;
     }
 
     .nombre{
-        top: 176%;
+        top: 173%;
         left: 10%;
         width: 70%;
         text-align: center;
